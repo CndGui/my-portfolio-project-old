@@ -36,11 +36,11 @@
 }
 
 .page.home .sub-information .content {
+    color: #bab9bc;
     display: flex;
     flex-direction: column;
     margin-left: 100px;
     font-style: italic;
-    opacity: 80%;
     font-size: 15px;
 }
 

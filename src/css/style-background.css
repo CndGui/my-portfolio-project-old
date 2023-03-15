@@ -4,6 +4,8 @@
     width: 100vw;
     position: fixed;
     z-index: -1;
+    top: 0;
+    left: 0;
 }
 
 .detail {
@@ -30,11 +32,11 @@
     opacity: 80%;
 }
 
-.background-detail .detail {
+.background .background-detail .detail {
     margin-left: 75px;
 }
 
-.background-detail .detail-botton {
+.background .background-detail .detail-botton {
     margin-left: 75px;
     margin-top: 96vh;
     position: fixed;

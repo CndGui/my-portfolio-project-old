@@ -6,14 +6,94 @@
 
 @media(max-width: 768px) {
     .page.home .information .content {
+        font-size: 35px;
+        line-height: 60px;
+    }
+}
+
+@media(max-width: 700px) {
+    .page.about .information .content .history {
+        width: 500px;
+    }
+}
+
+@media(max-width: 640px) {
+    .side-bar {
+        width: 50px;
+    }
+
+    .side-bar .home .logo {
+        height: 40px;
+    }
+
+    .side-bar .home .description .name {
+        font-size: 10px;
+    }
+
+    .side-bar .home .description .information {
+        text-align: center;
+    }
+
+    .side-bar .menu {
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .background .background-detail .detail {
+        margin-left: 50px;
+    }
+
+    .background .background-detail .detail-botton {
+        margin-left: 50px;
+    }
+
+    .page.home .information .content {
+        margin-left: 60px;
+    }
+
+    .page.home .detail {
+        margin-left: 60px;
+    }
+
+    .page.home .detail-botton {
+        margin-left: 60px;
+    }
+
+    .page.home .sub-information .content {
+        margin-left: 80px;
+    }
+}
+
+@media(max-width: 575px) {
+    .page.about .information .content .history {
+        width: 350px;
+    }
+}
+
+@media(max-width: 480px) {
+    .page.home .information .content {
         font-size: 30px;
-        line-height: 55px;
+        word-wrap: break-word;
     }
 }
 
 @media(max-width: 458px) {
+    .page.about .information .content .history {
+        width: 250px;
+    }
+}
+
+@media(max-width: 420px) {
     .page.home .information .content {
-        font-size: 16px;
-        line-height: 40px;
+        font-size: 25px;
+        line-height: 50px;
+    }
+
+    .page.about {
+        margin-left: 60px;
+    }
+
+    .page.about .information .content .title {
+        font-size: 35px;
     }
 }
