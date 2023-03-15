@@ -1,0 +1,41 @@
+.background {
+    background-color: #191622;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    z-index: -1;
+}
+
+.detail {
+    color: #dc6ca9;
+    display: flex;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 10px;
+    opacity: 80%;
+}
+
+.detail-botton {
+    color: #dc6ca9;
+    display: flex;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 10px;
+    opacity: 80%;
+}
+
+.detail-white {
+    color: #ffffff;
+    font-style: italic;
+    opacity: 80%;
+}
+
+.background-detail .detail {
+    margin-left: 75px;
+}
+
+.background-detail .detail-botton {
+    margin-left: 75px;
+    margin-top: 96vh;
+    position: fixed;
+}

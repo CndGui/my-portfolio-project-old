@@ -1,0 +1,86 @@
+.side-bar {
+    background-color: #1d1d1d;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 75px;
+}
+
+.side-bar .home{
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.side-bar .home .logo {
+    height: 50px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.side-bar .home .logo:hover {
+    transform: scale(1.1);
+}
+
+.side-bar .home .description{
+    min-height: 8vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.side-bar .home .description .name {
+    color: #ffffff;
+    font-size: 15px;
+}
+.side-bar .home .description .info {
+    color: #ffffff77;
+    font-size: 8px;
+}
+
+.side-bar .menu {
+    min-height: 72vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-size: 15px;
+}
+
+.side-bar .menu a {
+    color: #ffffffa9;
+}
+
+.side-bar .menu .option:hover {
+    color: #dc6ca9;
+}
+
+.side-bar .menu-icons .icon {
+    height: 20px;
+    filter: invert();
+    transition: 0.3s ease-in-out;
+}
+
+.side-bar .menu-icons .icon:hover {
+    transform: scale(1.3);
+}
+.side-bar .menu-icons {
+    min-height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.side-bar .menu .option.on {
+    color: #dc6ca9;
+}
+
+.page.on {
+    display: block;
+}
