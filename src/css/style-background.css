@@ -34,10 +34,12 @@
 
 .background .background-detail .detail {
     margin-left: 75px;
+    position: fixed;
+    top: 0;
 }
 
 .background .background-detail .detail-botton {
     margin-left: 75px;
-    margin-top: 96vh;
     position: fixed;
+    bottom: 0;
 }

@@ -43,12 +43,11 @@
 
 .page.about .about-footer {
     color: #ffffff46;
-    display: flex;
     justify-content: center;
-    margin-top: 60px;
-    margin-bottom: 20px;
     font-size: 10px;
     text-align: center;
+    margin-top: 10%;
+    margin-bottom: 20px;
 }
 
 .page.about {

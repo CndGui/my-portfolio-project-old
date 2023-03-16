@@ -26,7 +26,7 @@
 }
 
 .side-bar .home .description{
-    min-height: 8vh;
+    height: 8vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -43,7 +43,7 @@
 }
 
 .side-bar .menu {
-    min-height: 72vh;
+    height: 72vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -70,7 +70,7 @@
     transform: scale(1.3);
 }
 .side-bar .menu-icons {
-    min-height: 15vh;
+    height: 15vh;
     display: flex;
     align-items: center;
     justify-content: center;
