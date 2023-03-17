@@ -2,12 +2,41 @@
     .page.home .button-container {
         margin-top: 50px;
     }
+
+    .page.my-skills .information .image {
+        height: 150px;
+    }
+
+    .page.my-skills .information .text .rating-stars {
+        font-size: 30px;
+    }
+}
+
+@media(max-width: 870px) {
+    .page.my-skills .information .text {
+        margin-left: 20px;
+        width: auto;
+        max-width: 400px;
+    }
 }
 
 @media(max-width: 768px) {
     .page.home .information .content {
         font-size: 35px;
         line-height: 60px;
+    }
+
+    .page.my-skills .information .container {
+        flex-direction: column;
+    }
+
+    .page.my-skills .information .image-container {
+        margin-bottom: 10px;
+    }
+
+    .page.my-skills .information .text {
+        margin-left: 0;
+        margin-bottom: 30px;
     }
 }
 
