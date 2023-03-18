@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <link rel="icon" href="./src/images/cg-icon.png">
+    <link rel="icon" href="./src/images/cg-logo.png">
 
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link rel="stylesheet" href="./src/css/reset.css">
@@ -14,45 +15,90 @@
     <link rel="stylesheet" href="./src/css/style-home.css">
     <link rel="stylesheet" href="./src/css/style-about.css">
     <link rel="stylesheet" href="./src/css/style-my-skills.css">
-    <link rel="stylesheet" href="./src/css/style-side-bar.css">
-    <link rel="stylesheet" href="./src/css/reponsive.css">
+    <link rel="stylesheet" href="./src/css/style-sider-bar.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
 </head>
 <body>
     <main>
-        <aside class="side-bar">
-            <div class="home"><img src="./src/images/cg-logo.png" alt="CndGui-logo" class="logo">
+        <nav class="side-bar close">
+            <header>
+                <div class="image-text">
+                    <div class="image">
+                        <img src="./src/images/cg-logo.png" alt="Logo">
+                    </div>
 
-                <div class="description">
-                    <p class="name">CndGui</p>
-                    <p class="information">Web developer</p>
+                    <div class="text header-text">
+                        <span class="name">CndGui</span>
+                        <span class="profession">Web developer</span>
+                    </div>
+                </div>
+                
+                <i class="bx bx-chevron-right toggle"></i>
+            </header>
+
+            <div class="menu-bar">
+                <div class="menu">
+                    <ul class="menu-links">
+                        <li class="nav-link">
+                            <a href="#">
+                                <i class='bx bx-home-alt icon'></i>
+                                <span class="text nav-text">Home</span>
+                            </a>
+                        </li>
+
+                        <li class="nav-link">
+                            <a href="#">
+                                <i class='bx bx-user icon'></i>
+                                <span class="text nav-text">About</span>
+                            </a>
+                        </li>
+
+                        <li class="nav-link">
+                            <a href="#">
+                                <i class='bx bx-code-alt icon'></i>
+                                <span class="text nav-text">My Skills</span>
+                            </a>
+                        </li>
+
+                        <li class="nav-link">
+                            <a href="#">
+                                <i class='bx bx-dollar icon'></i>
+                                <span class="text nav-text">Works</span>
+                            </a>
+                        </li>
+
+                        <li class="nav-link">
+                            <a href="#">
+                                <i class='bx bx-message-rounded-dots icon'></i>
+                                <span class="text nav-text">Contact</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="botton-content">
+                    <ul class="menu-links">    
+                        <li class="nav-link">
+                            <a href="https://github.com/CndGui" target="_blank">
+                                <i class='bx bxl-github icon'></i>
+                            </a>
+                        </li>
+
+                        <li class="nav-link">
+                            <a class="nav-link" href="#">
+                                <i class='bx bxl-linkedin icon'></i>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
+        </nav>
 
-            <div class="menu">
-                <a href="#">
-                    <p class="option about">About</p>
-                </a>
-                <a href="#">
-                    <p class="option my-skills">My Skills</p>
-                </a>
-                <a href="#">
-                    <p class="option work">Work</p>
-                </a>
-                <a href="#">
-                    <p class="option contact">Contact</p>
-                </a>
+        <span class="side-bar-phone close">
+            <div class="toggle">
+                <i class='bx bx-menu'></i>
+                <span class="text">Menu</span>
             </div>
-
-            <div class="menu-icons">
-                <a href="https://github.com/CndGui?tab=repositories" target="_blank" rel="noopener noreferrer">
-                    <img src="./src/images/github.svg" alt="GitHub" class="icon">
-                </a>
-
-                <a href="#" target="_blank" rel="noopener noreferrer">
-                    <img src="./src/images/linkedin-in.svg" alt="Linkedin" class="icon">
-                </a>
-            </div>
-        </aside>
+        </span>
 
         <div class="background">
             <div class="background-detail">
@@ -169,7 +215,7 @@
                 </div>
             </div>
         </div>
-        <div class="page work">
+        <div class="page works">
             
         </div>
         <div class="page contact">

@@ -1,0 +1,123 @@
+@media(max-width: 870px) {
+    .page.my-skills .information .text {
+        margin-left: 20px;
+        width: auto;
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 768px) {
+    .page.home .information .content {
+        font-size: 35px;
+        line-height: 60px;
+    }
+
+    .page.my-skills .information .container {
+        flex-direction: column;
+    }
+
+    .page.my-skills .information .image-container {
+        margin-bottom: 10px;
+    }
+
+    .page.my-skills .information .text {
+        margin-left: 0;
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width: 700px) {
+    .page.about .information .content .history {
+        width: 500px;
+    }
+}
+
+@media(max-width: 640px) {
+    .side-bar.close{
+        height: 0;
+        width: 0;
+        padding: 0;
+    }
+
+    .side-bar.close img {
+        height: 0;
+        width: 0;
+    }
+
+    .side-bar.close li .icon {
+        font-size: 0px;
+    }
+
+    .side-bar.close .botton-content .icon {
+        font-size: 0px;
+    }
+
+    .side-bar.close header .toggle {
+        font-size: 0;
+        height: 0;
+        width: 0;
+    }
+
+    .side-bar-phone.close {
+        display: block;
+    }
+
+    .background .background-detail .detail, .background .background-detail .detail-botton {
+        margin-left: 0;
+    }
+    
+    .page.home .detail, .page.home .detail-botton {
+        margin-left: 20px;
+    }
+
+    .page.home .information .content, .page.home .sub-information .content {
+        margin-left: 40px;
+    }
+
+    .page.home .button-container {
+        margin-top: 50px;
+        margin-left: 0;
+    }
+
+    .page.about {
+        margin-left: 0;
+    }
+
+    .page.my-skills {
+        margin-left: 0;
+    }
+}
+
+@media(max-width: 575px) {
+    .page.about .information .content .history {
+        width: 350px;
+    }
+}
+
+@media (max-width: 480px) {
+    .page.home .information .content {
+        font-size: 30px;
+    }
+}
+
+@media(max-width: 458px) {
+    .page.about .information .content .history {
+        width: 250px;
+    }
+
+    .page.my-skills .information .container .text p {
+        padding: 0px 10px;
+    }
+}
+
+@media (max-width: 420px) {
+    .page.home .information .content {
+        font-size: 25px;
+        line-height: 50px;
+        word-wrap: break-word;
+    }
+
+    .page.about .information .content .title {
+        font-size: 35px;
+    }
+}
