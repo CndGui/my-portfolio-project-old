@@ -1,0 +1,55 @@
+.page.about {
+    color: #ffffff;
+    margin-left: 75px;
+}
+
+.page.about .information .content .title-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.page.about .information .content .title {
+    text-align: center;
+    font-size: 40px;
+}
+
+.page.about .information .content .history-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    gap: 40px;
+}
+
+.page.about .information .content .history {
+    color: #bab9bc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 600px;
+    font-size: 20px;
+}
+
+.page.about .information .content .cndbot {
+    display: flex;
+    width: 100px;
+    justify-content: center;
+    margin-top: 10px;
+    border: 2px solid;
+    border-color: #ffffff;
+}
+
+.page.about .about-footer {
+    color: #ffffff46;
+    justify-content: center;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.page.about {
+    display: none;
+}

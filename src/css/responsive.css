@@ -1,3 +1,10 @@
+@media(max-width: 1065px) {
+    .page.works .content .container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 @media(max-width: 870px) {
     .page.my-skills .information .text {
         margin-left: 20px;
@@ -86,6 +93,10 @@
     .page.my-skills {
         margin-left: 0;
     }
+
+    .page.works {
+        margin-left: 0;
+    }
 }
 
 @media(max-width: 575px) {
@@ -97,6 +108,14 @@
 @media (max-width: 480px) {
     .page.home .information .content {
         font-size: 30px;
+    }
+
+    .page.works .content .container .project {
+        padding: 10px 20px;
+    }
+
+    .page.works .content .container .project img {
+        height: 150px;
     }
 }
 
@@ -119,5 +138,15 @@
 
     .page.about .information .content .title {
         font-size: 35px;
+    }
+}
+
+@media(max-width: 355px) {
+    .page.works .content .container .project {
+        padding: 8px 16px;
+    }
+
+    .page.works .content .container .project img {
+        height: 125px;
     }
 }

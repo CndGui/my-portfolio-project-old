@@ -5,24 +5,27 @@ const togglePhone = sideBarPhone.querySelector(".toggle")
 const options = document.querySelectorAll(".menu .nav-link");
 const pages = document.querySelectorAll(".page");
 
-toggle.addEventListener("click", () => {
-    sideBar.classList.toggle("close");
-    sideBarPhone.classList.toggle("close");
-})
+toggleSelection();
+changePage();
 
-togglePhone.addEventListener("click", () => {
-    sideBar.classList.toggle("close");
-    sideBarPhone.classList.toggle("close");
-})
+function toggleSelection() {
+    toggle.addEventListener("click", () => {
+        sideBar.classList.toggle("close");
+        sideBarPhone.classList.toggle("close");
+    });
 
-changePage()
+    togglePhone.addEventListener("click", () => {
+        sideBar.classList.toggle("close");
+        sideBarPhone.classList.toggle("close");
+    });
+}
 
 function changePage() {
     options.forEach(option => {
         option.addEventListener("click", () => {
             pages.forEach(page => {
                 const optionTarget = option.querySelector(".nav-text").innerHTML.toLowerCase().replace(/ /g, "-");
-                const pageTarget = page.classList[1]
+                const pageTarget = page.classList[1];
 
                 page.classList.remove("on");
 
@@ -33,7 +36,7 @@ function changePage() {
                         sideBarPhone.classList.toggle("close");
                     }
                 }
-            })
+            });
         })
     })
 }

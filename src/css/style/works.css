@@ -1,0 +1,45 @@
+.page.works {
+    margin-left: 75px;
+    color: #ffffff;
+}
+
+.page.works .content .information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.page.works .content .information p {
+    color: #bab9bc;
+}
+
+.page.works .content .container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.page.works .content .container .project {
+    background-color: #00000054;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5%;
+    padding: 15px 30px;
+}
+
+.page.works .content .container .project img {
+    height: 200px;
+    border: 1px solid #ffffff21;
+    transition: 0.5s ease-in-out;
+}
+
+.page.works .content .container .project img:hover {
+    transform: scale(1.1);
+}
+
+.page.works {
+    display: none;
+}
