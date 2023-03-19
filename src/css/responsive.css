@@ -97,6 +97,10 @@
     .page.works {
         margin-left: 0;
     }
+
+    .page.works .content .container .project a {
+        opacity: 80%;
+    }
 }
 
 @media(max-width: 575px) {
@@ -114,8 +118,17 @@
         padding: 10px 20px;
     }
 
-    .page.works .content .container .project img {
+    .page.works .content .container .project a img {
         height: 150px;
+    }
+
+    .page.works .content .container .project a span {
+        top: 25%;
+        left: 35%;
+    }
+
+    .page.works .content .container .project a:hover span {
+        transform: scale(0.8);
     }
 }
 
@@ -146,7 +159,7 @@
         padding: 8px 16px;
     }
 
-    .page.works .content .container .project img {
+    .page.works .content .container .project a img {
         height: 125px;
     }
 }
