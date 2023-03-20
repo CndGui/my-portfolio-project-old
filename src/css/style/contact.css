@@ -1,0 +1,77 @@
+.page.contact {
+    margin-left: 75px;
+    color: #ffffff;
+}
+
+.page.contact .content .information {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 25px;
+}
+
+.page.contact .content .information .title .detail {
+    margin-bottom: 20px;
+}
+
+.page.contact .content .information .title h1 {
+    font-size: 100px;
+    margin-top: -25px;
+    margin-left: 25px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.page.contact .content .information .text p {
+    color: var(--text-color);
+    margin-left: 25px;
+    padding: 10px;
+    max-width: 600px;
+}
+
+.page.contact .content .information .text .detail {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.page.contact .content .information .text .detail-botton {
+    margin-top: 10px;
+}
+
+.page.contact .content .contacts {
+    position: absolute;
+    right: 0;
+}
+
+.page.contact .content .contacts .contact-container {
+    background-color: #00000054;
+    width: 400px;
+    padding: 10px;
+    border-radius: 5%;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+.page.contact .content .contacts .contact-container h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.page.contact .content .contacts .contact-container .contact {
+    display: flex;
+    gap: 6px;
+    position: relative;
+}
+
+.page.contact .content .contacts .contact-container .contact p {
+    color: #ffffff6e;
+    font-style: italic;
+}
+
+
+
+.page.contact {
+    display: none;
+}

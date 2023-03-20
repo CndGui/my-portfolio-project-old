@@ -14,10 +14,10 @@
 }
 
 .page.my-skills .information .container {
-    background-color: #00000010;
-    border-radius: 5%;
+    background-color: #00000054;
+    border-radius: 3%;
     display: flex;
-    margin-top: 30px;
+    margin: 30px 20px 0 20px;
     text-align: center;
     padding: 10px 30px;
 }
@@ -35,6 +35,7 @@
 }
 
 .page.my-skills .information .text {
+    color: var(--text-color);
     display: flex;
     flex-direction: column;
     justify-content: center;

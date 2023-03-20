@@ -8,18 +8,7 @@
     left: 0;
 }
 
-.detail {
-    color: var(--primary-color);
-    display: flex;
-    font-weight: bold;
-    font-style: italic;
-    font-size: 10px;
-    opacity: 80%;
-    position: relative;
-    z-index: -1;
-}
-
-.detail-botton {
+.detail, .detail-botton {
     color: var(--primary-color);
     display: flex;
     font-weight: bold;

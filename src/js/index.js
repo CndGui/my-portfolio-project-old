@@ -8,6 +8,8 @@ const pages = document.querySelectorAll(".page");
 toggleSelection();
 changePage();
 
+contactPageCopyChange();
+
 function toggleSelection() {
     toggle.addEventListener("click", () => {
         sideBar.classList.toggle("close");

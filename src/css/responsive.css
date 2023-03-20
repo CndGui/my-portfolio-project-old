@@ -1,3 +1,37 @@
+@media(max-width: 1180px) {
+    .page.contact .content .information {
+        position: initial;
+    }
+
+    .page.contact .content .information .title h1 {
+        margin-left: 0;
+    }
+
+    .page.contact .content .information .text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .page.contact .content .information .text p {
+        margin-left: 0;
+    }
+
+    .page.contact .content .contacts {
+        position: initial;
+        display: flex;
+        gap: 30px;
+        justify-content: space-around;
+        margin: 20px;
+    }
+
+    .page.contact .content .contacts .contact-container {
+        margin: 0;
+    }
+}
+
 @media(max-width: 1065px) {
     .page.works .content .container {
         flex-direction: column;
@@ -101,6 +135,24 @@
     .page.works .content .container .project a {
         opacity: 80%;
     }
+
+    .page.contact {
+        margin-left: 0;
+    }
+
+    .page.contact .content {
+        margin: 0 20px;
+    }
+
+    .page.contact .content .information {
+        margin-left: 0;
+    }
+
+    .page.contact .content .contacts {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 @media(max-width: 575px) {
@@ -115,7 +167,7 @@
     }
 
     .page.works .content .container .project {
-        padding: 10px 20px;
+        padding: 10px 10px;
     }
 
     .page.works .content .container .project a img {
@@ -123,7 +175,7 @@
     }
 
     .page.works .content .container .project a span {
-        top: 25%;
+        top: 20%;
         left: 35%;
     }
 
@@ -140,6 +192,11 @@
     .page.my-skills .information .container .text p {
         padding: 0px 10px;
     }
+
+    .page.contact .content .information .title h1 {
+        font-size: 80px;
+        line-height: 80px;
+    }
 }
 
 @media (max-width: 420px) {
@@ -152,14 +209,31 @@
     .page.about .information .content .title {
         font-size: 35px;
     }
+
+    .page.contact .content .contacts .contact-container {
+        width: 300px;
+    }
+}
+
+@media(max-width:380px) {
+    .page.contact .content .information .title h1 {
+        font-size: 60px;
+        line-height: 60px;
+    }
+
 }
 
 @media(max-width: 355px) {
     .page.works .content .container .project {
-        padding: 8px 16px;
+        padding: 8px 8px;
     }
 
     .page.works .content .container .project a img {
         height: 125px;
+    }
+
+    .page.works .content .container .project a span {
+        top: 15%;
+        left: 35%;
     }
 }
