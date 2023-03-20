@@ -3,6 +3,10 @@
     margin-left: 75px;
 }
 
+.page.about .information {
+    margin: 0 20px;
+}
+
 .page.about .information .content .title-container {
     display: flex;
     justify-content: center;
@@ -39,15 +43,6 @@
     margin-top: 10px;
     border: 2px solid;
     border-color: #ffffff;
-}
-
-.page.about .about-footer {
-    color: #ffffff46;
-    justify-content: center;
-    font-size: 10px;
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 10px;
 }
 
 .page.about {

@@ -157,7 +157,7 @@
 
 @media(max-width: 575px) {
     .page.about .information .content .history {
-        width: 350px;
+        max-width: 350px;
     }
 }
 
@@ -186,7 +186,7 @@
 
 @media(max-width: 458px) {
     .page.about .information .content .history {
-        width: 250px;
+        width: auto;
     }
 
     .page.my-skills .information .container .text p {
